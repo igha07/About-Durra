@@ -7,12 +7,14 @@ import Layout from '../layouts/Layout.astro';
 		<nav class="navbar">
 			<div class="nav-content">
 				<a href="#home" class="nav-logo">Durra</a>
-				<div class="nav-links">
-					<a href="#about" class="nav-link">About</a>
-					<a href="#significance" class="nav-link">Significance</a>
-					<a href="#methodology" class="nav-link">Methodology</a>
-					<a href="#team" class="nav-link">Team</a>
-				</div>
+			<div class="nav-links">
+  <a href="#about" class="nav-link">About</a>
+  <a href="#significance" class="nav-link">Significance</a>
+  <a href="#methodology" class="nav-link">Methodology</a>
+  <a href="#source-code" class="nav-link">Source Code</a>
+  <a href="#team" class="nav-link">Team</a>
+</div>
+
 				<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
 					<span class="theme-icon">🌙</span>
 				</button>
@@ -45,59 +47,43 @@ import Layout from '../layouts/Layout.astro';
 				</div>
 			</div>
 		</section>
-
-		<section class="significance" id="significance">
+		<section class="key-features" id="key-features">
 			<div class="content">
-				<h2>Durra's Significance</h2>
-				<div class="features-grid">
-					<div class="feature-box">
-						<div class="feature-number">01</div>
-						<h3>User Authentication & Authorization</h3>
-						<p>Secure login system ensuring safe access for all platform users</p>
+				<h2>DURRA'S Significance</h2>
+				<div class="features-list">
+					<div class="feature-item">
+						<span class="bullet">•</span>
+						<div>
+							<h4>Digital Marketplace</h4>
+							<p>Seamless platform connecting local jewelers with buyers</p>
+						</div>
 					</div>
-					<div class="feature-box">
-						<div class="feature-number">02</div>
-						<h3>Jeweler Management</h3>
-						<p>Tools for jewelers to showcase and manage their collections</p>
+					<div class="feature-item">
+						<span class="bullet">•</span>
+						<div>
+							<h4>Enhanced Visibility</h4>
+							<p>Increased exposure for local jewelers in Bahrain</p>
+						</div>
 					</div>
-					<div class="feature-box">
-						<div class="feature-number">03</div>
-						<h3>Product & Service Management</h3>
-						<p>Comprehensive inventory and service management systems</p>
+					<div class="feature-item">
+						<span class="bullet">•</span>
+						<div>
+							<h4>Simplified Shopping</h4>
+							<p>Streamlined buying experience for jewelry enthusiasts</p>
+						</div>
 					</div>
-					<div class="feature-box">
-						<div class="feature-number">04</div>
-						<h3>Customer Browsing & Discovery</h3>
-						<p>Advanced search and filtering for seamless product discovery</p>
-					</div>
-					<div class="feature-box">
-						<div class="feature-number">05</div>
-						<h3>Shopping Cart & Order Management</h3>
-						<p>Intuitive cart system with easy checkout and order tracking</p>
-					</div>
-					<div class="feature-box">
-						<div class="feature-number">06</div>
-						<h3>Payment Processing</h3>
-						<p>Secure and reliable payment gateway integration</p>
-					</div>
-					<div class="feature-box">
-						<div class="feature-number">07</div>
-						<h3>Fulfillment & Delivery</h3>
-						<p>Efficient order fulfillment and delivery tracking system</p>
-					</div>
-					<div class="feature-box">
-						<div class="feature-number">08</div>
-						<h3>Reviews & Feedback</h3>
-						<p>Customer reviews and ratings to build trust and credibility</p>
-					</div>
-					<div class="feature-box">
-						<div class="feature-number">09</div>
-						<h3>Administrative Functions</h3>
-						<p>Comprehensive admin tools for platform management and analytics</p>
+					<div class="feature-item">
+						<span class="bullet">•</span>
+						<div>
+							<h4>Interactive Platform</h4>
+							<p>User-tested and refined for optimal experience</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+
+		
 
 		<section class="methodology" id="methodology">
 			<div class="content">
@@ -150,63 +136,87 @@ import Layout from '../layouts/Layout.astro';
 						</div>
 					</div>
 
-					<h3 class="source-code-heading">Source Code</h3>
-					<p class="design-intro">Access our complete project repositories</p>
-					<div class="source-code-grid">
-						<a href="#" class="source-code-link">
-							<div class="source-code-box">
-								<div class="code-icon">💻</div>
-								<h4>Frontend Repository</h4>
-								<p>React.js and UI implementation</p>
-							</div>
-						</a>
-						<a href="#" class="source-code-link">
-							<div class="source-code-box">
-								<div class="code-icon">⚙️</div>
-								<h4>Backend Repository</h4>
-								<p>Node.js, Express.js and MongoDB</p>
-							</div>
-						</a>
-					</div>
+				
 				</div>
 			</div>
 		</section>
-
-		<section class="key-features" id="key-features">
+<section class="significance" id="significance">
 			<div class="content">
 				<h2>Key Features</h2>
-				<div class="features-list">
-					<div class="feature-item">
-						<span class="bullet">•</span>
-						<div>
-							<h4>Digital Marketplace</h4>
-							<p>Seamless platform connecting local jewelers with buyers</p>
-						</div>
+				<div class="features-grid">
+					<div class="feature-box">
+						<div class="feature-number">01</div>
+						<h3>User Authentication & Authorization</h3>
+						<p>Secure login system ensuring safe access for all platform users</p>
 					</div>
-					<div class="feature-item">
-						<span class="bullet">•</span>
-						<div>
-							<h4>Enhanced Visibility</h4>
-							<p>Increased exposure for local jewelers in Bahrain</p>
-						</div>
+					<div class="feature-box">
+						<div class="feature-number">02</div>
+						<h3>Jeweler Management</h3>
+						<p>Tools for jewelers to showcase and manage their collections</p>
 					</div>
-					<div class="feature-item">
-						<span class="bullet">•</span>
-						<div>
-							<h4>Simplified Shopping</h4>
-							<p>Streamlined buying experience for jewelry enthusiasts</p>
-						</div>
+					<div class="feature-box">
+						<div class="feature-number">03</div>
+						<h3>Product & Service Management</h3>
+						<p>Comprehensive inventory and service management systems</p>
 					</div>
-					<div class="feature-item">
-						<span class="bullet">•</span>
-						<div>
-							<h4>Interactive Platform</h4>
-							<p>User-tested and refined for optimal experience</p>
-						</div>
+					<div class="feature-box">
+						<div class="feature-number">04</div>
+						<h3>Customer Browsing & Discovery</h3>
+						<p>Advanced search and filtering for seamless product discovery</p>
+					</div>
+					<div class="feature-box">
+						<div class="feature-number">05</div>
+						<h3>Shopping Cart & Order Management</h3>
+						<p>Intuitive cart system with easy checkout and order tracking</p>
+					</div>
+					<div class="feature-box">
+						<div class="feature-number">06</div>
+						<h3>Payment Processing</h3>
+						<p>Secure and reliable payment gateway integration</p>
+					</div>
+					<div class="feature-box">
+						<div class="feature-number">07</div>
+						<h3>Fulfillment & Delivery</h3>
+						<p>Efficient order fulfillment and delivery tracking system</p>
+					</div>
+					<div class="feature-box">
+						<div class="feature-number">08</div>
+						<h3>Reviews & Feedback</h3>
+						<p>Customer reviews and ratings to build trust and credibility</p>
+					</div>
+					<div class="feature-box">
+						<div class="feature-number">09</div>
+						<h3>Administrative Functions</h3>
+						<p>Comprehensive admin tools for platform management and analytics</p>
 					</div>
 				</div>
 			</div>
 		</section>
+		
+<section class="source-code" id="source-code">
+  <div class="content">
+    <h2>Source Code</h2>
+    <p class="section-intro">Access our complete project repositories</p>
+
+    <div class="source-code-grid">
+      <a href="https://github.com/Kawthara-M/Durra" class="source-code-link">
+        <div class="source-code-box">
+          <div class="code-icon">💻</div>
+          <h4>Frontend Repository</h4>
+          <p>React.js and UI libraries (e.g. Chart.js)</p>
+        </div>
+      </a>
+
+      <a href="https://github.com/Kawthara-M/Durra-Backend" class="source-code-link">
+        <div class="source-code-box">
+          <div class="code-icon">⚙️</div>
+          <h4>Backend Repository</h4>
+          <p>Node.js, Express.js and MongoDB</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
 
 		<section class="team" id="team">
 			<div class="content">
@@ -215,21 +225,69 @@ import Layout from '../layouts/Layout.astro';
 				<div class="team-grid">
 					<div class="team-member">
 						<div class="member-box">
-							<div class="member-avatar">👩</div>
+<div class="member-avatar" aria-hidden="true">
+  <svg class="user-icon" viewBox="0 0 24 24" fill="none">
+    <path
+      d="M20 21a8 8 0 0 0-16 0"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+    />
+    <path
+      d="M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+</div>
 							<h3>Team Member Name</h3>
 							<p class="member-role">Project Lead</p>
 						</div>
 					</div>
 					<div class="team-member">
 						<div class="member-box">
-							<div class="member-avatar">👩‍💼</div>
+<div class="member-avatar" aria-hidden="true">
+  <svg class="user-icon" viewBox="0 0 24 24" fill="none">
+    <path
+      d="M20 21a8 8 0 0 0-16 0"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+    />
+    <path
+      d="M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+</div>
 							<h3>Team Member Name</h3>
 							<p class="member-role">Design Lead</p>
 						</div>
 					</div>
 					<div class="team-member">
 						<div class="member-box">
-							<div class="member-avatar">👩‍💻</div>
+<div class="member-avatar" aria-hidden="true">
+  <svg class="user-icon" viewBox="0 0 24 24" fill="none">
+    <path
+      d="M20 21a8 8 0 0 0-16 0"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+    />
+    <path
+      d="M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+</div>
 							<h3>Team Member Name</h3>
 							<p class="member-role">Development Lead</p>
 						</div>
@@ -759,6 +817,11 @@ import Layout from '../layouts/Layout.astro';
 		transition: color 0.3s ease;
 	}
 
+	.source-code {
+  background: var(--color-bg);
+  transition: background-color 0.3s ease;
+}
+
 	.source-code-heading {
 		font-size: 1.8rem;
 		margin-top: 3rem;
@@ -868,6 +931,14 @@ import Layout from '../layouts/Layout.astro';
 		transition: color 0.3s ease;
 	}
 
+	.user-icon {
+  width: 54px;
+  height: 70px;
+  color: var(--color-text);
+  opacity: 0.85;
+}
+
+
 	.team {
 		background: var(--color-bg-alt);
 		transition: background-color 0.3s ease;
@@ -884,6 +955,32 @@ import Layout from '../layouts/Layout.astro';
 	.team-member {
 		text-align: center;
 	}
+
+	.member-avatar {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg-alt);
+  transition: all 0.3s ease;
+}
+
+.member-box:hover .member-avatar {
+  border-color: var(--color-text);
+  transform: scale(1.05);
+}
+
+.user-icon {
+  width: 48px;
+  height: 48px;
+  color: var(--color-text);
+  opacity: 0.85;
+}
+
 
 	.member-box {
 		background: var(--color-bg);
@@ -903,11 +1000,6 @@ import Layout from '../layouts/Layout.astro';
 		box-shadow: 0 12px 35px rgba(240, 240, 240, 0.2);
 	}
 
-	.member-avatar {
-		font-size: 4.5rem;
-		margin-bottom: 1.5rem;
-		display: inline-block;
-	}
 
 	.team-member h3 {
 		font-size: 1.3rem;
