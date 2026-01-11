@@ -8,10 +8,16 @@ import Layout from "../layouts/Layout.astro"
       <div class="nav-content">
         <a href="#home" class="nav-logo">Durra</a>
         <div class="nav-links">
+          <a href="#home" class="nav-link">Home</a>
           <a href="#about" class="nav-link">About</a>
+          <a href="#abstract" class="nav-link">Abstract</a>
+          <a href="#objectives" class="nav-link">Objectives</a>
           <a href="#significance" class="nav-link">Significance</a>
           <a href="#methodology" class="nav-link">Methodology</a>
+          <a href="#technologies" class="nav-link">Technologies</a>
+          <a href="#results" class="nav-link">Results</a>
           <a href="#source-code" class="nav-link">Source Code</a>
+          <a href="#conclusion" class="nav-link">Conclusion</a>
           <a href="#team" class="nav-link">Team</a>
         </div>
 
@@ -27,9 +33,26 @@ import Layout from "../layouts/Layout.astro"
 
     <header class="hero" id="home">
       <div class="hero-content">
-        <h1 class="logo">Durra</h1>
-        <p class="tagline">Connecting Jewelers and Buyers in Bahrain</p>
-        <a href="#about" class="cta-button">Explore More</a>
+        <div class="hero-top-left">
+          <img
+            src="src/assets/logo.png"
+            alt="University of Bahrain logo"
+            class="uob-logo"
+          />
+          <div class="university-info">
+            <p class="university-name">University of Bahrain</p>
+            <p class="college">College of Information Technology</p>
+            <p class="department">Department of Information Systems</p>
+          </div>
+        </div>
+        <div class="hero-center">
+          <h1 class="logo">Durra</h1>
+          <p class="tagline">Connecting Jewelers and Buyers in Bahrain</p>
+          <p class="hero-subtagline">
+            A curated digital marketplace elevating local craftsmanship through data-driven personalization and seamless commerce.
+          </p>
+          <a href="#about" class="cta-button">Explore More</a>
+        </div>
       </div>
     </header>
 
@@ -58,7 +81,51 @@ import Layout from "../layouts/Layout.astro"
         </div>
       </div>
     </section>
-    <section class="key-features" id="key-features">
+
+    <section class="abstract" id="abstract">
+      <div class="content">
+        <h2>Abstract</h2>
+        <div class="abstract-card">
+          <p>
+            Durra is a jewelry digital marketplace developed to connect jewelers and buyers in Bahrain, increasing the visibility of local jewelers and facilitating the shopping process for buyers. The platform is the result of careful market analysis and requirement elicitation. Upon the findings obtained, a user-centric prototype was developed to ensure a positive usability experience for users. The design was then implemented into an interactive platform that went through an iteration of testing and refinement phases to measure users' acceptance and act on their feedback. Future plans revolve around the development of a re-selling feature, real-time tracking of orders feature, and a mobile platform. Durra does also aim to integrate with more authentication and certifications providers. To conclude, all plans are to contribute to the improvement of Durra's usability and trustworthiness as envisioned by its users.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="objectives" id="objectives">
+      <div class="content">
+        <h2>Project Objectives</h2>
+        <div class="objectives-grid">
+          <div class="objective-card">
+            <h3>01</h3>
+            <p>To develop Durra, a dedicated digital marketplace that connects Bahraini jewelers directly with customers, enhancing the local jewelry industry's digital presence.</p>
+          </div>
+          <div class="objective-card">
+            <h3>02</h3>
+            <p>To significantly increase the visibility and market reach of Bahraini jewelers, both locally and internationally, by providing a centralized, trusted online platform.</p>
+          </div>
+          <div class="objective-card">
+            <h3>03</h3>
+            <p>To streamline and improve the customer journey by simplifying the process of searching for, comparing, and discovering fine jewelry pieces from multiple vendors in one place.</p>
+          </div>
+          <div class="objective-card">
+            <h3>04</h3>
+            <p>To ensure customers have access to concurrent, fair market prices and can easily compare options, fostering trust and informed decision-making.</p>
+          </div>
+          <div class="objective-card">
+            <h3>05</h3>
+            <p>To guarantee the authenticity of jewelry by leveraging and integrating official gemological authentication services, notably from DANAT (Bahrain's Institute for Pearls and Gemstones).</p>
+          </div>
+          <div class="objective-card">
+            <h3>06</h3>
+            <p>To create a secure, reliable ecosystem that benefits both jewelers and customers by offering a convenient, verified, and superior shopping experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="key-features" id="significance">
       <div class="content">
         <h2>DURRA'S Significance</h2>
         <div class="features-list">
@@ -94,77 +161,7 @@ import Layout from "../layouts/Layout.astro"
       </div>
     </section>
 
-    <section class="methodology" id="methodology">
-      <div class="content">
-        <h2>Methodology</h2>
-        <p class="methodology-intro">
-          Durra was developed using an Agile methodology, an iterative approach
-          that emphasizes flexibility, continuous improvement, and user
-          feedback. Agile enables us to rapidly prototype, test, and refine the
-          platform based on real user insights and market demands.
-        </p>
-
-        <div class="methodology-process">
-          <h3>Development Process</h3>
-          <div class="process-steps">
-            <div class="step">
-              <div class="step-number">01</div>
-              <h4>Market Research & User Requirements Collection</h4>
-              <p>
-                In-depth analysis of the jewelry market in Bahrain and extensive
-                user interviews
-              </p>
-            </div>
-            <div class="step">
-              <div class="step-number">02</div>
-              <h4>Design of User-centric Prototypes</h4>
-              <p>
-                Creation of intuitive wireframes and interactive prototypes with
-                continuous user feedback
-              </p>
-            </div>
-            <div class="step">
-              <div class="step-number">03</div>
-              <h4>MERN Stack Implementation</h4>
-              <p>
-                Development using MongoDB, Express.js, React.js, and Node.js for
-                robust functionality
-              </p>
-            </div>
-            <div class="step">
-              <div class="step-number">04</div>
-              <h4>Continuous Testing & Quality Assurance</h4>
-              <p>
-                Rigorous manual testing and iterative refinement based on user
-                feedback
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="methodology-design">
-          <h3>Design & Prototypes</h3>
-          <p class="design-intro">
-            Visual representation of our design journey and key prototypes
-          </p>
-          <div class="design-gallery">
-            <div class="design-item">
-              <img src="https://imgur.com/a/wDxrvsU" alt="Design Prototype 1" />
-              <p>Initial Wireframes</p>
-            </div>
-            <div class="design-item">
-              <img src="https://imgur.com/a/wDxrvsU" alt="Design Prototype 2" />
-              <p>Interactive Prototype</p>
-            </div>
-            <div class="design-item">
-              <img src="https://imgur.com/a/wDxrvsU" alt="Design Prototype 3" />
-              <p>Final Design System</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="significance" id="significance">
+    <section class="significance" id="key-features">
       <div class="content">
         <h2>Key Features</h2>
         <div class="features-grid">
@@ -221,6 +218,188 @@ import Layout from "../layouts/Layout.astro"
       </div>
     </section>
 
+    <section class="methodology" id="methodology">
+      <div class="content">
+        <h2>Methodology &amp; Approach</h2>
+        <p class="methodology-intro">
+          Durra was developed using an Agile methodology, an iterative approach
+          that emphasizes flexibility, continuous improvement, and user
+          feedback. Agile enables us to rapidly prototype, test, and refine the
+          platform based on real user insights and market demands.
+        </p>
+
+        <div class="methodology-process">
+          <h3>Development Process</h3>
+          <div class="process-steps">
+            <div class="step">
+              <div class="step-number">01</div>
+              <h4>Market Research &amp; User Requirements Collection</h4>
+              <p>
+                In-depth analysis of the jewelry market in Bahrain and extensive
+                user interviews
+              </p>
+            </div>
+            <div class="step">
+              <div class="step-number">02</div>
+              <h4>Design of User-centric Prototypes</h4>
+              <p>
+                Creation of intuitive wireframes and interactive prototypes with
+                continuous user feedback
+              </p>
+            </div>
+            <div class="step">
+              <div class="step-number">03</div>
+              <h4>MERN Stack Implementation</h4>
+              <p>
+                Development using MongoDB, Express.js, React.js, and Node.js for
+                robust functionality
+              </p>
+            </div>
+            <div class="step">
+              <div class="step-number">04</div>
+              <h4>Continuous Testing &amp; Quality Assurance</h4>
+              <p>
+                Rigorous manual testing and iterative refinement based on user
+                feedback
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="methodology-design">
+          <h3>Design &amp; Prototypes</h3>
+          <p class="design-intro">
+            Visual representation of our design journey and key prototypes
+          </p>
+          <div class="design-gallery">
+            <div class="design-item">
+              <div class="placeholder-img" aria-hidden="true"></div>
+              <h4>Interactive Prototype</h4>
+              <p>Figma-based interactive prototype with full user flows</p>
+              <a href="https://www.figma.com/design/dnVU3wVA9AD9L9V8gwceUC/Untitled?node-id=0-1&t=wIucJywQzjzDOiYB-1" target="_blank" class="design-link">View Prototype →</a>
+            </div>
+            <div class="design-item">
+              <div class="placeholder-img" aria-hidden="true"></div>
+              <h4>System Diagrams & Documentation</h4>
+              <p>Architecture diagrams, ERD, and design system documentation</p>
+              <a href="https://linktr.ee/Durra0" target="_blank" class="design-link">View Diagrams →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="technologies" id="technologies">
+      <div class="content">
+        <h2>Technologies Used</h2>
+        <div class="tech-grid">
+          <div class="tech-card">
+            <h3>Programming &amp; Frameworks</h3>
+            <ul>
+              <li>JavaScriptv </li>
+              <li>React </li>
+              <li>Node.js · Express</li>
+            </ul>
+          </div>
+          <div class="tech-card">
+            <h3>Cloud &amp; DevOps</h3>
+            <ul>
+              <li>MongoDB </li>
+            </ul>
+          </div>
+          <div class="tech-card">
+            <h3>Collaboration</h3>
+            <ul>
+              <li>Notion documentation</li>
+              <li>MS Teams & Excel</li>
+              <li>Whatsapp</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <section class="results" id="results">
+      <div class="content">
+        <h2>Results & Implementation</h2>
+        <p class="section-intro">Screenshots of the actual Durra platform showcasing key features and user interface</p>
+        
+        <div class="results-grid">
+          <div class="screenshot-item">
+            <div class="screenshot-container">
+              <img 
+                src="src/assets/home.png" 
+                alt="Durra Home Page" 
+                class="screenshot-img"
+              >
+            </div>
+            <h3 class="screenshot-title">Durra Home Page</h3>
+            <p class="screenshot-desc">Welcome page featuring curated jewelry collections</p>
+          </div>
+          
+          <div class="screenshot-item">
+            <div class="screenshot-container">
+              <img 
+                src="src/assets/products.png" 
+                alt="Product Listing Page" 
+                class="screenshot-img"
+              >
+            </div>
+            <h3 class="screenshot-title">Product Catalog</h3>
+            <p class="screenshot-desc">Filterable jewelry listings with detailed product cards</p>
+          </div>
+          
+          <div class="screenshot-item">
+            <div class="screenshot-container">
+              <img 
+                src="src/assets/jewler.png" 
+                alt="Jeweler Dashboard" 
+                class="screenshot-img">
+            </div>
+            <h3 class="screenshot-title">Jeweler Dashboard</h3>
+            <p class="screenshot-desc">Management interface for jewelers to track sales and inventory</p>
+          </div>
+          
+          <div class="screenshot-item">
+            <div class="screenshot-container">
+              <img 
+                src="src/assets/cart.png" 
+                alt="Shopping Cart" 
+                class="screenshot-img"
+               >
+            </div>
+            <h3 class="screenshot-title">Shopping Cart</h3>
+            <p class="screenshot-desc">User cart with checkout process and order summary</p>
+          </div>
+          
+          <div class="screenshot-item">
+            <div class="screenshot-container">
+              <img 
+                src="src/assets/profile.png" 
+                alt="User Profile" 
+                class="screenshot-img"
+              >
+            </div>
+            <h3 class="screenshot-title">User Profile Management</h3>
+            <p class="screenshot-desc">Personalized user profile with order history and preferences</p>
+          </div>
+          
+          <div class="screenshot-item">
+            <div class="screenshot-container">
+              <img 
+                src="src/assets/admin.png" 
+                alt="Admin Panel" 
+                class="screenshot-img"
+               >
+            </div>
+            <h3 class="screenshot-title">Admin Control Panel</h3>
+            <p class="screenshot-desc">Administrative interface for platform management and analytics</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="source-code" id="source-code">
       <div class="content">
         <h2>Source Code</h2>
@@ -230,34 +409,71 @@ import Layout from "../layouts/Layout.astro"
           <a
             href="https://github.com/Kawthara-M/Durra"
             class="source-code-link"
+            target="_blank"
+            rel="noopener"
           >
             <div class="source-code-box">
               <div class="code-icon">💻</div>
               <h4>Frontend Repository</h4>
-              <p>React.js and UI libraries (e.g. Chart.js)</p>
+              <p>React.js interface, state management, and UI components.</p>
             </div>
           </a>
 
           <a
             href="https://github.com/Kawthara-M/Durra-Backend"
             class="source-code-link"
+            target="_blank"
+            rel="noopener"
           >
             <div class="source-code-box">
               <div class="code-icon">⚙️</div>
               <h4>Backend Repository</h4>
-              <p>Node.js, Express.js and MongoDB</p>
+              <p>Node.js APIs, Express services, and MongoDB schema design.</p>
             </div>
           </a>
         </div>
       </div>
     </section>
 
+    <section class="conclusion" id="conclusion">
+      <div class="content">
+        <h2>Conclusion &amp; Future Work</h2>
+        <div class="conclusion-grid">
+          <div class="conclusion-card">
+            <h3>Summary</h3>
+            <p>
+              Durra successfully delivers a secure, scalable marketplace tailored to Bahrain's jewelry ecosystem. User-centered design, robust engineering, and continuous stakeholder engagement resulted in measurable improvements in jeweler visibility and buyer satisfaction.
+            </p>
+          </div>
+          <div class="conclusion-card">
+            <h3>Future Enhancements</h3>
+            <ul>
+              <li>Order Tracking Feature</li>
+              <li>Reselling Feature</li>
+              <li>Multi Language Support and multi payment options.</li>
+              <li>API Development</li>
+              <li>Mobile Application</li>
+            </ul>
+          </div>
+          <div class="conclusion-card">
+            <h3>Scalability Opportunities</h3>
+            <p>
+              Modular microservices and cloud-native deployment enable rapid onboarding of new stakeholders, strategic partnerships with logistics providers, and data analytics expansion for market intelligence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="team" id="team">
       <div class="content">
-        <h2>Meet the Team</h2>
+        <h2>About the Project &amp; Team</h2>
+        <p class="project-context">
+          This project is a Final Year Senior Project completed during Semester 1 of the Academic Year 2025/2026 at the College of Information Technology — University of Bahrain.
+        </p>
+
         <p class="section-intro">
-          Talented individuals collaborating to revolutionize the jewelry
-          marketplace
+          Talented individuals collaborating to revolutionize the jewelry marketplace.
         </p>
         <div class="team-grid">
           <div class="team-member">
@@ -268,17 +484,20 @@ import Layout from "../layouts/Layout.astro"
                     d="M20 21a8 8 0 0 0-16 0"
                     stroke="currentColor"
                     stroke-width="1.8"
-                    stroke-linecap="round"></path>
+                    stroke-linecap="round"
+                  ></path>
                   <path
                     d="M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
                     stroke="currentColor"
                     stroke-width="1.8"
                     stroke-linecap="round"
-                    stroke-linejoin="round"></path>
+                    stroke-linejoin="round"
+                  ></path>
                 </svg>
               </div>
 
               <h3>Kawthar Mohammad</h3>
+              <p>Information Systems</p>
 
               <div class="member-socials">
                 <a
@@ -296,7 +515,7 @@ import Layout from "../layouts/Layout.astro"
                 </a>
 
                 <a
-                  href="www.linkedin.com/in/kawthar-mohammad"
+                  href="https://www.linkedin.com/in/kawthar-mohammad"
                   target="_blank"
                   rel="noopener"
                   aria-label="LinkedIn"
@@ -319,17 +538,19 @@ import Layout from "../layouts/Layout.astro"
                     d="M20 21a8 8 0 0 0-16 0"
                     stroke="currentColor"
                     stroke-width="1.8"
-                    stroke-linecap="round"></path>
+                    stroke-linecap="round"
+                  ></path>
                   <path
                     d="M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
                     stroke="currentColor"
                     stroke-width="1.8"
                     stroke-linecap="round"
-                    stroke-linejoin="round"></path>
+                  ></path>
                 </svg>
               </div>
 
               <h3>Ghadeer Abdulla</h3>
+              <p>Information Systems</p>
 
               <div class="member-socials">
                 <a
@@ -370,17 +591,19 @@ import Layout from "../layouts/Layout.astro"
                     d="M20 21a8 8 0 0 0-16 0"
                     stroke="currentColor"
                     stroke-width="1.8"
-                    stroke-linecap="round"></path>
+                    stroke-linecap="round"
+                  ></path>
                   <path
                     d="M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
                     stroke="currentColor"
                     stroke-width="1.8"
                     stroke-linecap="round"
-                    stroke-linejoin="round"></path>
+                  ></path>
                 </svg>
               </div>
 
-              <h3>Ragad Abdulla</h3>
+               <h3>Ragad Abdulla</h3>
+              <p>Cyber Security</p>
 
               <div class="member-socials">
                 <a
@@ -414,6 +637,34 @@ import Layout from "../layouts/Layout.astro"
             </div>
           </div>
         </div>
+
+        <!-- Project Supervisor Section -->
+        <div class="supervisor-section">
+          <h3>Project Supervisor</h3>
+          <div class="supervisor-card">
+            <div class="supervisor-avatar">
+              <svg class="user-icon" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M20 21a8 8 0 0 0-16 0"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"></path>
+                <path
+                  d="M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </div>
+            <div class="supervisor-details">
+              <h4>Dr. Maan Aljawder</h4>
+              <p class="supervisor-rank">Assistant Professor</p>
+              <p class="supervisor-department">Department of Information Systems</p>
+              <p class="supervisor-email">📧 maljawder@uob.edu.bh</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -424,9 +675,15 @@ import Layout from "../layouts/Layout.astro"
           <nav class="footer-links">
             <a href="#home">Home</a>
             <a href="#about">About</a>
+            <a href="#abstract">Abstract</a>
+            <a href="#objectives">Objectives</a>
             <a href="#significance">Significance</a>
-            <a href="#methodology">Methodology</a>
             <a href="#key-features">Key Features</a>
+            <a href="#methodology">Methodology</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#results">Results</a>
+            <a href="#source-code">Source Code</a>
+            <a href="#conclusion">Conclusion</a>
             <a href="#team">Team</a>
           </nav>
           <p class="footer-copyright">© 2025 Durra. All rights reserved.</p>
@@ -504,10 +761,11 @@ import Layout from "../layouts/Layout.astro"
   .nav-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1.5rem 2rem;
+    padding: 1.2rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
   }
 
   .nav-logo {
@@ -521,16 +779,19 @@ import Layout from "../layouts/Layout.astro"
 
   .nav-links {
     display: flex;
-    gap: 2.5rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 
   .nav-link {
     color: var(--color-text);
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     font-weight: 500;
     position: relative;
     transition: color 0.3s ease;
+    padding-bottom: 0.2rem;
   }
 
   .nav-link:after {
@@ -564,10 +825,6 @@ import Layout from "../layouts/Layout.astro"
     transform: rotate(20deg);
   }
 
-  .theme-icon {
-    display: inline-block;
-  }
-
   .hero {
     min-height: 100vh;
     display: flex;
@@ -576,7 +833,7 @@ import Layout from "../layouts/Layout.astro"
     background: var(--color-bg);
     position: relative;
     overflow: hidden;
-    padding-top: 80px;
+    padding-top: 100px;
     transition: background-color 0.3s ease;
   }
 
@@ -615,9 +872,61 @@ import Layout from "../layouts/Layout.astro"
   }
 
   .hero-content {
-    text-align: center;
-    z-index: 1;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
     padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: calc(100vh - 100px);
+  }
+
+  .hero-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 2rem;
+    max-width: 400px;
+  }
+
+  .uob-logo {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.1));
+  }
+
+  html.dark-mode .uob-logo {
+    filter: drop-shadow(0 2px 5px rgba(255, 255, 255, 0.1));
+  }
+
+  .university-info {
+    text-align: left;
+  }
+
+  .university-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 0.2rem;
+    letter-spacing: 0.02em;
+  }
+
+  .college, .department {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    line-height: 1.4;
+  }
+
+  .hero-center {
+    text-align: center;
+    max-width: 800px;
+    z-index: 2;
   }
 
   .logo {
@@ -625,24 +934,32 @@ import Layout from "../layouts/Layout.astro"
     font-weight: 300;
     letter-spacing: 0.2em;
     color: var(--color-text);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
     text-transform: uppercase;
     animation: fadeInDown 1s ease-out;
     transition: color 0.3s ease;
   }
 
   .tagline {
-    font-size: clamp(1.1rem, 3vw, 1.5rem);
+    font-size: clamp(1.1rem, 3vw, 1.6rem);
     color: var(--color-text);
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.05em;
     animation: fadeInUp 1s ease-out 0.2s both;
     transition: color 0.3s ease;
+    margin-bottom: 1rem;
+  }
+
+  .hero-subtagline {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto 2rem;
   }
 
   .cta-button {
     display: inline-block;
-    margin-top: 2.5rem;
     padding: 1rem 3rem;
     background: var(--color-text);
     color: var(--color-bg);
@@ -705,7 +1022,6 @@ import Layout from "../layouts/Layout.astro"
   }
 
   h3 {
-    text-align: center;
     color: var(--color-text);
     transition: color 0.3s ease;
   }
@@ -721,7 +1037,7 @@ import Layout from "../layouts/Layout.astro"
   }
 
   .about-parts {
-    max-width: 1000px;
+    max-width: 950px;
     margin: 0 auto;
   }
 
@@ -758,6 +1074,114 @@ import Layout from "../layouts/Layout.astro"
     transition: color 0.3s ease;
   }
 
+  .abstract {
+    background: var(--color-bg-alt);
+  }
+
+  .abstract-card {
+    background: var(--color-bg);
+    padding: 3rem;
+    border-radius: 12px;
+    border: 2px solid var(--color-border);
+    box-shadow: 0 20px 45px rgba(40, 1, 1, 0.08);
+    line-height: 1.85;
+    color: var(--color-text);
+    font-size: 1rem;
+    transition:
+      background-color 0.3s ease,
+      border-color 0.3s ease,
+      color 0.3s ease,
+      box-shadow 0.3s ease;
+  }
+
+  html.dark-mode .abstract-card {
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+  }
+
+  .objectives {
+    background: var(--color-bg);
+  }
+
+  .objectives-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .objective-card {
+    background: var(--color-bg-alt);
+    padding: 2.5rem 2rem;
+    border-radius: 10px;
+    border-left: 4px solid var(--color-text);
+    box-shadow: 0 12px 30px rgba(40, 1, 1, 0.1);
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+  }
+
+  .objective-card h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+  }
+
+  .objective-card p {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+  }
+
+  .objective-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(40, 1, 1, 0.18);
+  }
+
+  .key-features {
+    background: var(--color-bg-alt);
+    transition: background-color 0.3s ease;
+  }
+
+  .features-list {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+  }
+
+  .feature-item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: start;
+    padding: 1.8rem;
+    background: var(--color-bg);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    border-left: 4px solid var(--color-text);
+    box-shadow: 0 10px 30px rgba(40, 1, 1, 0.08);
+  }
+
+  .feature-item:hover {
+    transform: translateX(8px);
+  }
+
+  .bullet {
+    color: var(--color-text);
+    font-size: 2rem;
+    line-height: 1;
+    transition: color 0.3s ease;
+  }
+
+  .feature-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+  }
+
+  .feature-item p {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+  }
+
   .significance {
     background: var(--color-bg);
     transition: background-color 0.3s ease;
@@ -774,25 +1198,17 @@ import Layout from "../layouts/Layout.astro"
   .feature-box {
     background: var(--color-bg);
     padding: 2.5rem 2rem;
-    border-radius: 8px;
+    border-radius: 10px;
     border: 2px solid var(--color-border);
     text-align: center;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(40, 1, 1, 0.05);
-  }
-
-  html.dark-mode .feature-box {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 30px rgba(40, 1, 1, 0.1);
   }
 
   .feature-box:hover {
     border-color: var(--color-text);
     transform: translateY(-8px);
-    box-shadow: 0 12px 35px rgba(40, 1, 1, 0.15);
-  }
-
-  html.dark-mode .feature-box:hover {
-    box-shadow: 0 12px 35px rgba(240, 240, 240, 0.2);
+    box-shadow: 0 20px 45px rgba(40, 1, 1, 0.18);
   }
 
   .feature-number {
@@ -814,18 +1230,16 @@ import Layout from "../layouts/Layout.astro"
     color: var(--color-text);
     margin-bottom: 1rem;
     font-weight: 500;
-    transition: color 0.3s ease;
   }
 
   .feature-box p {
     color: var(--color-text-secondary);
     line-height: 1.6;
     font-size: 0.95rem;
-    transition: color 0.3s ease;
   }
 
   .methodology {
-    background: var(--color-bg-alt);
+    background: var(--color-bg);
     transition: background-color 0.3s ease;
   }
 
@@ -834,14 +1248,14 @@ import Layout from "../layouts/Layout.astro"
     line-height: 1.9;
     text-align: center;
     max-width: 1000px;
-    margin: 0 auto 4rem;
+    margin: 0 auto 3.5rem;
     color: var(--color-text);
     transition: color 0.3s ease;
   }
 
   .methodology-process {
     max-width: 1100px;
-    margin: 0 auto 5rem;
+    margin: 0 auto 4rem;
   }
 
   .methodology-process h3 {
@@ -849,7 +1263,7 @@ import Layout from "../layouts/Layout.astro"
     color: var(--color-text);
     margin-bottom: 3rem;
     font-weight: 400;
-    transition: color 0.3s ease;
+    text-align: center;
   }
 
   .process-steps {
@@ -859,10 +1273,10 @@ import Layout from "../layouts/Layout.astro"
   }
 
   .step {
-    background: var(--color-bg);
+    background: var(--color-bg-alt);
     padding: 2rem;
-    border-radius: 8px;
-    text-align: center;
+    border-radius: 10px;
+    text-align: left;
     border: 2px solid var(--color-border);
     transition: all 0.3s ease;
     position: relative;
@@ -874,15 +1288,11 @@ import Layout from "../layouts/Layout.astro"
     box-shadow: 0 10px 30px rgba(40, 1, 1, 0.1);
   }
 
-  html.dark-mode .step:hover {
-    box-shadow: 0 10px 30px rgba(240, 240, 240, 0.1);
-  }
-
   .step-number {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 300;
     color: var(--color-text);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     opacity: 0.7;
     transition: opacity 0.3s ease;
   }
@@ -893,23 +1303,20 @@ import Layout from "../layouts/Layout.astro"
 
   .step h4 {
     font-size: 1.1rem;
-    color: var(--color-text);
-    margin-bottom: 1rem;
+    margin-bottom: 0.9rem;
     font-weight: 500;
-    transition: color 0.3s ease;
   }
 
   .step p {
     color: var(--color-text-secondary);
     font-size: 0.95rem;
     line-height: 1.6;
-    transition: color 0.3s ease;
   }
 
   .methodology-design {
-    background: var(--color-bg);
+    background: var(--color-bg-alt);
     padding: 3rem;
-    border-radius: 8px;
+    border-radius: 12px;
     max-width: 1100px;
     margin: 0 auto;
     transition: background-color 0.3s ease;
@@ -918,21 +1325,20 @@ import Layout from "../layouts/Layout.astro"
   .methodology-design h3 {
     font-size: 1.8rem;
     color: var(--color-text);
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
     font-weight: 400;
-    transition: color 0.3s ease;
+    text-align: center;
   }
 
   .design-intro {
     text-align: center;
     color: var(--color-text-secondary);
     margin-bottom: 2.5rem;
-    transition: color 0.3s ease;
   }
 
   .design-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-bottom: 3rem;
   }
@@ -940,38 +1346,149 @@ import Layout from "../layouts/Layout.astro"
   .design-item {
     text-align: center;
     transition: transform 0.3s ease;
+    background: var(--color-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid var(--color-border);
   }
 
   .design-item:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
+    border-color: var(--color-text);
   }
 
-  .design-item img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    border: 2px solid var(--color-border);
-    transition: border-color 0.3s ease;
+
+    
+
+
+  .design-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--color-text);
   }
 
   .design-item p {
+    color: var(--color-text-secondary);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .design-link {
+    display: inline-block;
     color: var(--color-text);
+    text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
   }
 
-  .source-code {
+  .design-link:hover {
+    color: var(--color-accent-hover);
+  }
+
+  .technologies {
+    background: var(--color-bg);
+  }
+
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .tech-card {
+    background: var(--color-bg-alt);
+    border-radius: 10px;
+    padding: 2.2rem 1.8rem;
+    border: 2px solid var(--color-border);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .tech-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(40, 1, 1, 0.15);
+  }
+
+  .tech-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .tech-card ul {
+    list-style: none;
+    color: var(--color-text-secondary);
+    display: grid;
+    gap: 0.7rem;
+    text-align: center;
+  }
+
+  /* Results Section */
+  .results {
     background: var(--color-bg);
     transition: background-color 0.3s ease;
   }
 
-  .source-code-heading {
-    font-size: 1.8rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    font-weight: 400;
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .screenshot-item {
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  .screenshot-container {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 3px solid var(--color-border);
+    background: var(--color-bg);
+    box-shadow: 0 15px 40px rgba(40, 1, 1, 0.12);
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+    height: 300px;
+    position: relative;
+  }
+
+  .screenshot-item:hover .screenshot-container {
+    transform: translateY(-8px);
+    border-color: var(--color-text);
+    box-shadow: 0 25px 60px rgba(40, 1, 1, 0.2);
+  }
+
+  .screenshot-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .screenshot-item:hover .screenshot-img {
+    transform: scale(1.05);
+  }
+
+  .screenshot-title {
+    font-size: 1.3rem;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  .screenshot-desc {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .source-code {
+    background: var(--color-bg-alt);
+    transition: background-color 0.3s ease;
   }
 
   .source-code-grid {
@@ -986,9 +1503,9 @@ import Layout from "../layouts/Layout.astro"
   }
 
   .source-code-box {
-    background: var(--color-bg-alt);
+    background: var(--color-bg);
     padding: 2.5rem 2rem;
-    border-radius: 8px;
+    border-radius: 12px;
     border: 2px solid var(--color-border);
     text-align: center;
     transition: all 0.3s ease;
@@ -997,11 +1514,7 @@ import Layout from "../layouts/Layout.astro"
   .source-code-box:hover {
     border-color: var(--color-text);
     transform: translateY(-6px);
-    box-shadow: 0 10px 30px rgba(40, 1, 1, 0.1);
-  }
-
-  html.dark-mode .source-code-box:hover {
-    box-shadow: 0 10px 30px rgba(240, 240, 240, 0.1);
+    box-shadow: 0 20px 45px rgba(40, 1, 1, 0.12);
   }
 
   .code-icon {
@@ -1017,7 +1530,6 @@ import Layout from "../layouts/Layout.astro"
   .source-code-box p {
     color: var(--color-text-secondary);
     font-size: 0.95rem;
-    transition: color 0.3s ease;
   }
 
   .section-intro {
@@ -1028,59 +1540,40 @@ import Layout from "../layouts/Layout.astro"
     transition: color 0.3s ease;
   }
 
-  .key-features {
+  .conclusion {
     background: var(--color-bg);
-    transition: background-color 0.3s ease;
   }
 
-  .features-list {
-    max-width: 800px;
-    margin: 0 auto;
+  .conclusion-grid {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
 
-  .feature-item {
-    display: flex;
-    gap: 1.5rem;
-    align-items: start;
-    padding: 1.5rem;
+  .conclusion-card {
     background: var(--color-bg-alt);
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    border-left: 4px solid var(--color-text);
+    border-radius: 12px;
+    border: 2px solid var(--color-border);
+    padding: 2.3rem;
+    box-shadow: 0 15px 35px rgba(40, 1, 1, 0.1);
   }
 
-  .feature-item:hover {
-    transform: translateX(8px);
+  .conclusion-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
   }
 
-  .bullet {
-    color: var(--color-text);
-    font-size: 2rem;
-    line-height: 1;
-    transition: color 0.3s ease;
-  }
-
-  .feature-item h4 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    color: var(--color-text);
-    font-weight: 500;
-    transition: color 0.3s ease;
-  }
-
-  .feature-item p {
+  .conclusion-card p,
+  .conclusion-card ul {
     color: var(--color-text-secondary);
-    line-height: 1.6;
-    transition: color 0.3s ease;
+    line-height: 1.7;
   }
 
-  .user-icon {
-    width: 54px;
-    height: 70px;
-    color: var(--color-text);
-    opacity: 0.85;
+  .conclusion-card ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    display: grid;
+    gap: 0.8rem;
   }
 
   .team {
@@ -1088,12 +1581,20 @@ import Layout from "../layouts/Layout.astro"
     transition: background-color 0.3s ease;
   }
 
+  .project-context {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+  }
+
   .team-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 3.5rem auto 0;
   }
 
   .team-member {
@@ -1128,7 +1629,7 @@ import Layout from "../layouts/Layout.astro"
   .member-box {
     background: var(--color-bg);
     padding: 2.5rem 2rem;
-    border-radius: 8px;
+    border-radius: 12px;
     border: 2px solid var(--color-border);
     transition: all 0.3s ease;
   }
@@ -1151,155 +1652,9 @@ import Layout from "../layouts/Layout.astro"
     transition: color 0.3s ease;
   }
 
-  .member-role {
+  .team-member p {
     color: var(--color-text-secondary);
-    font-size: 0.95rem;
-    transition: color 0.3s ease;
-  }
-
-  footer {
-    background: var(--color-text);
-    color: var(--color-bg);
-    padding: 3rem 2rem;
-    text-align: center;
-    transition: all 0.3s ease;
-  }
-
-  .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .footer-title {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    opacity: 0.9;
-  }
-
-  .footer-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .footer-links a {
-    color: var(--color-bg);
-    text-decoration: none;
-    font-size: 0.95rem;
-    opacity: 0.8;
-    transition: opacity 0.3s ease;
-  }
-
-  .footer-links a:hover {
-    opacity: 1;
-  }
-
-  .footer-copyright {
-    opacity: 0.7;
-    font-size: 0.9rem;
-  }
-
-  @media (max-width: 1024px) {
-    .features-grid,
-    .source-code-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .process-steps {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .design-gallery {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .team-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .navbar {
-      position: relative;
-    }
-
-    .nav-links {
-      gap: 1rem;
-      font-size: 0.85rem;
-    }
-
-    .hero {
-      padding-top: 0;
-    }
-
-    .logo {
-      font-size: clamp(2.5rem, 8vw, 4rem);
-    }
-
-    section {
-      padding: 4rem 1.5rem;
-    }
-
-    .features-grid,
-    .process-steps,
-    .design-gallery,
-    .team-grid,
-    .source-code-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .feature-box,
-    .step,
-    .member-box {
-      padding: 2rem 1.5rem;
-    }
-
-    h2 {
-      margin-bottom: 2.5rem;
-    }
-
-    .about-highlight,
-    .about-description,
-    .methodology-intro {
-      font-size: 1rem;
-    }
-
-    .methodology-design h3,
-    .methodology-process h3 {
-      font-size: 1.5rem;
-    }
-
-    .footer-links {
-      flex-direction: column;
-      gap: 1rem;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .nav-links {
-      display: none;
-    }
-
-    .logo {
-      font-size: 2rem;
-    }
-
-    .tagline {
-      font-size: 1rem;
-    }
-
-    .feature-box h3,
-    .step h4 {
-      font-size: 1rem;
-    }
-
-    .feature-box p,
-    .step p {
-      font-size: 0.9rem;
-    }
+    margin-bottom: 1rem;
   }
 
   .member-socials {
@@ -1326,6 +1681,306 @@ import Layout from "../layouts/Layout.astro"
     height: 22px;
     display: block;
   }
+
+  /* Project Supervisor Section */
+  .supervisor-section {
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  .supervisor-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: var(--color-text);
+    font-weight: 400;
+  }
+
+  .supervisor-card {
+    background: var(--color-bg);
+    border: 2px solid var(--color-border);
+    border-radius: 12px;
+    padding: 3rem;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 15px 35px rgba(40, 1, 1, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .supervisor-card:hover {
+    border-color: var(--color-text);
+    transform: translateY(-5px);
+    box-shadow: 0 20px 45px rgba(40, 1, 1, 0.15);
+  }
+
+  .supervisor-avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1.5rem;
+    border-radius: 50%;
+    background: var(--color-bg-alt);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--color-border);
+  }
+
+  .supervisor-avatar .user-icon {
+    width: 48px;
+    height: 48px;
+    color: var(--color-text);
+  }
+
+  .supervisor-details h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+  }
+
+  .supervisor-rank {
+    font-size: 1.1rem;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  .supervisor-department {
+    font-size: 1rem;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+  }
+
+  .supervisor-email {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    margin-top: 1rem;
+  }
+
+  footer {
+    background: var(--color-text);
+    color: var(--color-bg);
+    padding: 3rem 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-links a {
+    color: var(--color-bg);
+    text-decoration: none;
+    font-size: 0.95rem;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+
+  .footer-links a:hover {
+    opacity: 1;
+  }
+
+  .footer-copyright {
+    opacity: 0.7;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 1024px) {
+    .hero-top-left {
+      position: relative;
+      top: auto;
+      left: auto;
+      margin-bottom: 3rem;
+      justify-content: center;
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    .hero-content {
+      flex-direction: column;
+    }
+    
+    .process-steps {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .conclusion-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .team-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .objectives-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .results-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .screenshot-container {
+      height: 250px;
+    }
+  }
+
+  @media (max-width: 880px) {
+    .nav-links {
+      display: none;
+    }
+
+    .objective-card {
+      padding: 2.2rem 1.6rem;
+    }
+
+    .tech-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .source-code-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .design-gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero-top-left {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    
+    .uob-logo {
+      width: 50px;
+    }
+    
+    .university-info {
+      text-align: center;
+    }
+    
+    .objectives-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .process-steps {
+      grid-template-columns: 1fr;
+    }
+    
+    .conclusion-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .team-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .design-gallery {
+      grid-template-columns: 1fr;
+    }
+    
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .supervisor-card {
+      padding: 2rem 1.5rem;
+    }
+
+    .supervisor-avatar {
+      width: 80px;
+      height: 80px;
+    }
+
+    .supervisor-avatar .user-icon {
+      width: 36px;
+      height: 36px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    section {
+      padding: 4.5rem 1.5rem;
+    }
+
+    .hero {
+      padding-top: 80px;
+    }
+
+    .abstract-card {
+      padding: 2.4rem 1.6rem;
+    }
+    
+    .hero-content {
+      padding: 1rem;
+    }
+    
+    .screenshot-container {
+      height: 200px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 2.8rem;
+    }
+
+    .tagline {
+      font-size: 1.05rem;
+    }
+
+    .objective-card h3 {
+      font-size: 1.8rem;
+    }
+
+    .objective-card,
+    .feature-box,
+    .feature-item,
+    .step {
+      padding: 1.8rem 1.4rem;
+    }
+    
+    .supervisor-section h3 {
+      font-size: 1.5rem;
+    }
+
+    .supervisor-details h4 {
+      font-size: 1.3rem;
+    }
+
+    .supervisor-rank,
+    .supervisor-department,
+    .supervisor-email {
+      font-size: 0.9rem;
+    }
+    
+    .screenshot-container {
+      height: 180px;
+    }
+  }
 </style>
 
 <script>
@@ -1333,16 +1988,17 @@ import Layout from "../layouts/Layout.astro"
   const html = document.documentElement
   const themeIcon = document.querySelector(".theme-icon")
 
-  const savedTheme = localStorage.getItem("theme") || "light"
-  if (savedTheme === "dark") {
-    html.classList.add("dark-mode")
-    themeIcon.textContent = "☀️"
-  }
+  if (themeToggle && themeIcon) {
+    // Force light theme by default
+    html.classList.remove("dark-mode")
+    themeIcon.textContent = "🌙"
 
-  themeToggle?.addEventListener("click", () => {
-    html.classList.toggle("dark-mode")
-    const isDarkMode = html.classList.contains("dark-mode")
-    themeIcon.textContent = isDarkMode ? "☀️" : "🌙"
-    localStorage.setItem("theme", isDarkMode ? "dark" : "light")
-  })
+    themeToggle.addEventListener("click", () => {
+      html.classList.toggle("dark-mode")
+      const isDarkMode = html.classList.contains("dark-mode")
+      themeIcon.textContent = isDarkMode ? "☀️" : "🌙"
+    })
+    
+  }
+  
 </script>
