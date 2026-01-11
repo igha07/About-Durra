@@ -8,16 +8,12 @@ import Layout from "../layouts/Layout.astro"
       <div class="nav-content">
         <a href="#home" class="nav-logo">Durra</a>
         <div class="nav-links">
-          <a href="#home" class="nav-link">Home</a>
           <a href="#about" class="nav-link">About</a>
-          <a href="#abstract" class="nav-link">Abstract</a>
           <a href="#objectives" class="nav-link">Objectives</a>
-          <a href="#significance" class="nav-link">Significance</a>
           <a href="#methodology" class="nav-link">Methodology</a>
           <a href="#technologies" class="nav-link">Technologies</a>
           <a href="#results" class="nav-link">Results</a>
           <a href="#source-code" class="nav-link">Source Code</a>
-          <a href="#conclusion" class="nav-link">Conclusion</a>
           <a href="#team" class="nav-link">Team</a>
         </div>
 
@@ -35,7 +31,7 @@ import Layout from "../layouts/Layout.astro"
       <div class="hero-content">
         <div class="hero-top-left">
           <img
-            src="src/assets/logo.png"
+            src="/logo.png"
             alt="University of Bahrain logo"
             class="uob-logo"
           />
@@ -296,13 +292,13 @@ import Layout from "../layouts/Layout.astro"
           <div class="tech-card">
             <h3>Programming &amp; Frameworks</h3>
             <ul>
-              <li>JavaScriptv </li>
+              <li>JavaScript</li>
               <li>React </li>
               <li>Node.js · Express</li>
             </ul>
           </div>
           <div class="tech-card">
-            <h3>Cloud &amp; DevOps</h3>
+            <h3>Database</h3>
             <ul>
               <li>MongoDB </li>
             </ul>
@@ -310,9 +306,9 @@ import Layout from "../layouts/Layout.astro"
           <div class="tech-card">
             <h3>Collaboration</h3>
             <ul>
+              <li>GitHub</li>
               <li>Notion documentation</li>
               <li>MS Teams & Excel</li>
-              <li>Whatsapp</li>
             </ul>
           </div>
         </div>
@@ -329,7 +325,7 @@ import Layout from "../layouts/Layout.astro"
           <div class="screenshot-item">
             <div class="screenshot-container">
               <img 
-                src="src/assets/home.png" 
+                src="/home.png" 
                 alt="Durra Home Page" 
                 class="screenshot-img"
               >
@@ -341,7 +337,7 @@ import Layout from "../layouts/Layout.astro"
           <div class="screenshot-item">
             <div class="screenshot-container">
               <img 
-                src="src/assets/products.png" 
+                src="/products.png" 
                 alt="Product Listing Page" 
                 class="screenshot-img"
               >
@@ -353,7 +349,7 @@ import Layout from "../layouts/Layout.astro"
           <div class="screenshot-item">
             <div class="screenshot-container">
               <img 
-                src="src/assets/jewler.png" 
+                src="jewler.png" 
                 alt="Jeweler Dashboard" 
                 class="screenshot-img">
             </div>
@@ -364,7 +360,7 @@ import Layout from "../layouts/Layout.astro"
           <div class="screenshot-item">
             <div class="screenshot-container">
               <img 
-                src="src/assets/cart.png" 
+                src="/cart.png" 
                 alt="Shopping Cart" 
                 class="screenshot-img"
                >
@@ -376,7 +372,7 @@ import Layout from "../layouts/Layout.astro"
           <div class="screenshot-item">
             <div class="screenshot-container">
               <img 
-                src="src/assets/profile.png" 
+                src="/profile.png" 
                 alt="User Profile" 
                 class="screenshot-img"
               >
@@ -388,7 +384,7 @@ import Layout from "../layouts/Layout.astro"
           <div class="screenshot-item">
             <div class="screenshot-container">
               <img 
-                src="src/assets/admin.png" 
+                src="/admin.png" 
                 alt="Admin Panel" 
                 class="screenshot-img"
                >
@@ -673,9 +669,7 @@ import Layout from "../layouts/Layout.astro"
         <div class="footer-content">
           <p class="footer-title">Durra - Jewelry Digital Marketplace</p>
           <nav class="footer-links">
-            <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#abstract">Abstract</a>
             <a href="#objectives">Objectives</a>
             <a href="#significance">Significance</a>
             <a href="#key-features">Key Features</a>
@@ -683,7 +677,6 @@ import Layout from "../layouts/Layout.astro"
             <a href="#technologies">Technologies</a>
             <a href="#results">Results</a>
             <a href="#source-code">Source Code</a>
-            <a href="#conclusion">Conclusion</a>
             <a href="#team">Team</a>
           </nav>
           <p class="footer-copyright">© 2025 Durra. All rights reserved.</p>
@@ -875,7 +868,7 @@ import Layout from "../layouts/Layout.astro"
     display: flex;
     max-width: 1200px;
     width: 100%;
-    padding: 2rem;
+    padding: 1rem 2rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -884,13 +877,10 @@ import Layout from "../layouts/Layout.astro"
   }
 
   .hero-top-left {
-    position: absolute;
-    top: 0;
-    left: 0;
     display: flex;
     align-items: center;
     gap: 1.2rem;
-    padding: 2rem;
+    padding: 1rem 2rem;
     max-width: 400px;
   }
 
